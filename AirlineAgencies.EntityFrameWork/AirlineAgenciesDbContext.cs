@@ -4,7 +4,7 @@ using System.Data.Entity;
 
 namespace AirlineAgencies.EntityFrameWork
 {
-    public class AirlineAgenciesDbContext:DbContext
+    public class AirlineAgenciesDbContext : DbContext
     {
         public AirlineAgenciesDbContext() : base(GetConnectionString())
         {
